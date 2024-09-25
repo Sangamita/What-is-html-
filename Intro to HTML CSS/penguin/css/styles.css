@@ -1,0 +1,50 @@
+h1{
+	color: orange;
+	background-color: slategray;
+	font-size: 25px;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+h3{
+	color: rgb(51, 167, 53);
+}
+p{
+	color: slategray;
+	text-align: justify;
+	line-height: 25px;
+	letter-spacing: 1px;
+	column-count: 2;
+	column-gap: 20px;
+}
+a
+{
+	text-decoration: none;
+}
+
+ul{
+	border-style: dashed;
+	border-width: 3px;
+	border-color: black;
+	list-style-type: none;
+
+}
+
+li{
+	list-style-type: decimal-leading-zero;
+	text-shadow: 1px 2px green;
+}
+
+
+
+table{
+	/* border-style: dashed;
+	border-width: 3px;
+	border-color: black; */
+
+	/* border: 4px dashed black; */
+
+	border-bottom: 5px solid black;
+	border-right: dashed 5px red;
+	border-top: dashed 5px rgb(75, 27, 131);
+}
