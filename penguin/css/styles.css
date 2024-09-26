@@ -32,7 +32,8 @@ ul{
 
 li{
 	list-style-type: decimal-leading-zero;
-	text-shadow: 1px 2px green;
+	/* text-shadow: 1px 2px green; */
+	text-shadow: 2px 2px #E9E9E9;
 }
 
 
@@ -47,4 +48,12 @@ table{
 	border-bottom: 5px solid black;
 	border-right: dashed 5px red;
 	border-top: dashed 5px rgb(75, 27, 131);
+}
+
+span{
+	display: block;
+}
+
+div{
+	display: inline;
 }
