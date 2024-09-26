@@ -1,3 +1,69 @@
-p{
+/* p{
+	color: green;
+}
+.error{
 	color: red;
+}
+p.error{
+	color: orange;
+}
+p.success{
+	color: blue;
+}
+p.success.feedback{
+	border: 1px dashed blue;
+}
+#content{
+	color: blueviolet;
+	padding: 20px;
+	border: 2px solid red;
+}
+p#content{
+	color: black;
+	padding: 10px;
+	border: 5px dashed green;
+} */
+
+/* descendent selectors */
+/* div p{
+	color: red;
+}
+a{
+	color: brown;
+	text-decoration: underline;
+	font-size: x-large;
+}
+div p a{
+	text-decoration: line-through;
+	color: black;
+	font-size: medium;
+}
+div .error{
+	color: rgb(64, 0, 255);
+}
+ */
+
+ /* a[href="abc.com"]{
+	background-color: rgb(255, 0, 0);
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: uppercase;
+ } */
+
+a[href*="bc"]{
+	background-color: rgb(255, 0, 0);
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+a[href*="oogle"]{
+	background-color: black;
+	color: white;
+}
+
+a[href$=".com"]{
+	background-color:brown
 }
